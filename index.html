@@ -226,10 +226,10 @@
 
 <!-- HERO -->
 <div class="hero">
-  <div class="avatar">PP</div>
+  <div class="avatar" style="font-size:1rem;letter-spacing:1px;">GIS</div>
   <h1>Prabesh Pandey</h1>
   <div class="sub">GIS Analyst &amp; Cartographer &nbsp;·&nbsp; Remote Sensing &nbsp;·&nbsp; Spatial Analysis</div>
-  <div class="loc">📍 San Marcos, Texas &nbsp;|&nbsp; Texas State University — M.S. Applied Geography</div>
+  <div class="loc">📍 San Marcos, Texas &nbsp;|&nbsp; Texas State University — Masters in Applied Geography</div>
   <div class="chips">
     <span class="chip">ArcGIS Pro</span><span class="chip">LiDAR · LP360</span>
     <span class="chip">Remote Sensing</span><span class="chip">Python</span>
@@ -238,7 +238,7 @@
   </div>
   <div class="btns">
     <a class="btn btn-solid" href="#projects">View My Work</a>
-    <a class="btn btn-ghost" href="#contact">Get In Touch</a>
+    <a class="btn btn-ghost" href="#contact">Contact</a>
     <a class="btn btn-cv" href="Prabesh_Pandey_CV_2026.pdf" download>⬇ Download CV</a>
   </div>
 </div>
@@ -247,7 +247,7 @@
 <section id="about" class="about-strip">
   <div class="wrap about-strip-inner">
     <div class="about-bio">
-      <p>M.S. Applied Geography candidate at Texas State University, specializing in GIS, Cartography, and Remote Sensing. Background in geology from Tribhuvan University, Nepal. I map, model, and analyze spatial problems — from flood disaster response in the Himalayas to healthcare access gaps in Central Texas.</p>
+      <p>Masters in Applied Geography candidate at Texas State University, specializing in GIS, Cartography, and Remote Sensing. Background in geology from Tribhuvan University, Nepal. I map, model, and analyze spatial problems — from flood disaster response in the Himalayas to healthcare access gaps in Central Texas.</p>
     </div>
     <div class="about-nums">
       <div class="anum"><span class="anum-n">9</span><span class="anum-l">GIS Projects</span></div>
@@ -374,15 +374,26 @@
 
       <!-- 6. Wildfire Python -->
       <div class="proj-card">
-        <div class="proj-placeholder">🔥</div>
+        <div class="proj-placeholder" style="background:linear-gradient(135deg,#7B241C 0%,#C0392B 100%);">🔥</div>
         <div class="proj-body">
-          <div class="proj-cat">Python GIS &amp; Environmental Modeling</div>
-          <h3>Temperature &amp; Groundwater Dynamics to Model Fire-Hazard Resistance</h3>
-          <p>Co-authored project (with Mussie Wolday Tsegay &amp; Md Saroar Hossain, Texas State University, April 2025). Integrated a decade of temperature, rainfall, and groundwater fluctuation datasets in ArcGIS Pro and built a user-friendly Python toolbox to identify and visualize wildfire-prone areas, enabling proactive risk management and environmental monitoring.</p>
+          <div class="proj-cat">Python GIS Toolbox &amp; Public Risk Tool</div>
+          <h3>Is Your Area Wildfire-Prone? — Fire Hazard Heatmap Toolbox</h3>
+          <p>Built a custom ArcGIS Pro Python Toolbox that lets anyone — land managers, emergency planners, or residents — load their own temperature and groundwater data and instantly generate a kernel-density heatmap showing wildfire-prone areas in their region. Plug in your CSV, select your study boundary, and the tool outputs a clipped fire-risk raster directly into your map. Validated on Travis County, TX using NOAA temperature records and TWDB groundwater data (2019–2024). Statistical analysis (ANOVA, OLS regression) showed a +14.4% temperature rise over five years alongside deepening water tables — both key wildfire risk drivers.</p>
           <div class="proj-tools">
-            <span class="proj-tool">Python</span><span class="proj-tool">ArcGIS Pro</span>
-            <span class="proj-tool">Toolbox Development</span><span class="proj-tool">Environmental Data</span>
-            <span class="proj-tool">Groundwater Analysis</span>
+            <span class="proj-tool">Python / ArcPy</span><span class="proj-tool">ArcGIS Pro</span>
+            <span class="proj-tool">Kernel Density</span><span class="proj-tool">NOAA Data</span>
+            <span class="proj-tool">TWDB Groundwater</span><span class="proj-tool">ANOVA / OLS</span>
+            <span class="proj-tool">Travis County, TX</span>
+          </div>
+          <div style="margin-top:12px;">
+            <a href="Fire_Hazard_Heatmap_Toolbox.pyt" download
+               style="display:inline-block;background:#1a5276;color:#fff;padding:7px 16px;
+                      border-radius:6px;font-size:0.8rem;font-weight:700;text-decoration:none;
+                      transition:background .2s;"
+               onmouseover="this.style.background='#2471a3'"
+               onmouseout="this.style.background='#1a5276'">
+              ⬇ Download Toolbox (.pyt)
+            </a>
           </div>
         </div>
       </div>
@@ -453,7 +464,7 @@
         <div class="bg-card-head">🎓 Education</div>
         <div class="bg-entry">
           <div class="bg-yr">2024 – 2026</div>
-          <div class="bg-title">M.S. Applied Geography</div>
+          <div class="bg-title">Masters in Applied Geography</div>
           <div class="bg-sub">Texas State University, San Marcos TX</div>
         </div>
         <div class="bg-entry">
@@ -500,8 +511,7 @@
 <section id="contact">
   <div class="wrap">
     <div class="contact-box">
-      <h2>Let's Connect</h2>
-      <p>Open to GIS Analyst, Cartographer, Remote Sensing Specialist, and Research positions.</p>
+      <h2>Contact</h2>
       <div class="c-links">
         <a class="c-link" href="mailto:Prabeshpandey10@gmail.com">✉️ Prabeshpandey10@gmail.com</a>
         <a class="c-link" href="tel:7373889190">📞 (737) 388-9190</a>
